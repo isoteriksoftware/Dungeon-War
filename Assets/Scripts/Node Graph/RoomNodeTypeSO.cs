@@ -46,7 +46,7 @@ public class RoomNodeTypeSO : ScriptableObject
 #if UNITY_EDITOR
     private void OnValidate()
     {
-        HelperUtils.ValidateCheckEmptyString(this, nameof(roomNodeTypeName), roomNodeTypeName);
+        HelperUtilities.ValidateCheckEmptyString(this, nameof(roomNodeTypeName), roomNodeTypeName);
     }
 #endif
     #endregion
